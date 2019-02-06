@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form method="post">
+         <header>
+          <h1>facebook<span>&reg;</span></h1>
+            <h2>Qeydiyyat</h2>
+            <h4>Bu tehlukesizlikdir ve her zaman olacaq</h3>
+    
+         </header>  
+       <fieldset id="left">
+           <legend>Hec kimin melumati yoxdur</legend>
+           <input type="text" placeholder="Adiniz" />
+           <input type="text" placeholder="Soyadniz" />
+           <input type="email" placeholder=" Sizin Email" />
+           <input type="tel" placeholder="Telefon nomresi" />
+           <input type="password" placeholder="Sizin Kodunuz" />
+           <input type="url" placeholder="Website" />
+
+
+           <label for="bday">Ad gunu</label>
+           <input type="date"  id="bday" value="10-02-1998">
+           <div id="gender">
+				<input type="radio" name="gender" id="female">
+				<label for="female">Female</label>
+				<input type="radio" name="gender" id="male">
+				<label for="male">Male</label>
+				<input type="radio" name="gender" id="other" checked>
+				<label for="other">Other</label>
+
+
+           </div>
+
+        </fieldset>
+
+        <fieldset id="right">
+            <legend>Important Information *required</legend>
+            <input type="text" placeholder="Olke" required tabindex="3" />
+            <input type="text" placeholder="Kend" required/>
+            <input type="text" placeholder="Seher" required>
+            <input type="text" placeholder="Kuce" required tabindex="2" />
+            <input type="text" class="small-field" placeholder="Nr"  required />
+            <input type="text" class="small-field" placeholder="Mertebe" required tabindex="-1" / >
+            <input type="text" class="small-field" placeholder="Ap Nr" required/>
+            <label for="qapi">qapi rengi</label>
+            <div id="important-staff">
+
+
+            <input type="reng" id="qapi" value="#FF0000" required tabindex="-1"/>
+            <input type="text " placeholder="Orucov Kamran Nr" required tabindex="-1">
+            <select id="panties" tabindex="1">
+                    <option hidden selected>Uncle Kamrans' Size</option>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+                </select>
+                     </div>
+                     <label for="more">Daha cox şəxsi məlumat</label>
+			<textarea id="more" placeholder="Bizə daha cox informasiya ver!!!"></textarea>
+		</fieldset>
+        <input type="reset" value="Clear Form" class="buttons"/>
+        <input type="submit" value="Register" id="reg-button" class="buttons"/>
+	</form>
+
+        </fieldset>
+
+
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
